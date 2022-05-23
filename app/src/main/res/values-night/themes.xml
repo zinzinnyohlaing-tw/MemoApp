@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- A custom theme is for No ActionBar to our activity is added. This is created over here for Maintaining the Status Bar color in all the activities added with NoActionBar Theme. Which is material standard.)-->
+    <style name="CustomNoActionBarTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- A custom theme is added to our toolbar. For updating the Home Button and title Color as per theme.)-->
+    <style name="CustomToolbarStyle">
+        <item name="android:textColorPrimary">#3b5998</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+
+</resources>
